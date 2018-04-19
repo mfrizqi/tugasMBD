@@ -1,0 +1,79 @@
+.login-form {
+    height: 70vh;
+    margin: 6em 0 2.7em 0;
+    color:#282828;
+}
+
+.login-form h2 {
+    color: white;
+}
+
+.login-form form button, .sign-form form button{
+    border-radius: 50px;
+    background-color: rgb(7, 151, 7);
+    color: white;
+    border: none;
+}
+
+.login-form form button:hover, .sign-form form button:hover{
+    border-radius: 50px;
+    background-color: rgb(8, 182, 8);
+    color: white;
+}
+
+.login-form h1, .sign-form h1{
+    color: rgb(8, 182, 8);
+}
+
+.login-form a{
+    text-decoration: none;
+}
+
+.login-form a p {
+    padding: 2em 0 0 0 ;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.login-form a:hover p {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+.sign-form{
+    margin: 5em 0 5em 0;
+}
+
+.sign-form form a{
+    color: rgb(8, 182, 8);
+}
+
+
+.bg-signup {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/pict3-01.jpg") no-repeat;
+    /*background-image: url("../img/pict3-01.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-login {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../img/login.jpeg") no-repeat;
+    /*background-image: url("../img/pict3-01.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color:rgb(15, 15, 15);
+}
+
+.for-footer .nav a {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(219, 219, 219)
+}
+
+.for-footer .nav a:hover {
+    color: white;
+}

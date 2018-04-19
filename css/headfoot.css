@@ -1,0 +1,59 @@
+
+.header-top{
+    height: 4.5em;
+    background-color: white;
+}
+
+.navthis {
+    width: 100%;
+}
+
+.kolapsin {
+    margin-left: 2%;
+    background: white;
+}
+
+.navbar-brand {
+    margin-left: 6%;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: green;
+}
+.for-footer .nav a {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(219, 219, 219)
+}
+
+.for-footer .nav a:hover {
+    color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-brand img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

@@ -1,0 +1,149 @@
+.para-plant {
+    background-image: url("../img/pict1-01.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .para-plant-cap {
+    margin: 2em 0 0 0;
+    padding: 0.5em;
+    font-size: 5em;
+    color: #FFF;
+    border: 10px white solid;
+    position: relative;
+  }
+
+  .para-plant2 {
+    background-image: url("../img/pict2-01.jpg");
+    background-attachment: fixed;
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0.9);
+    overflow: auto;
+  }
+
+  .para-plant3 {
+    background-image: url("../img/pict3-01.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .welcome {
+    margin: 5% 0 5% 0;
+  }
+
+  .welcome h2 {
+    font-size: 4em;
+  }
+
+  .welcome p {
+    font-size: 2em;
+  }
+
+  #plant1 {
+    height: 300px;
+    background-image: url("../img/indoor/1.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #plant2 {
+    height: 300px;
+    background-image: url("../img/indoor/1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+  }
+
+  .card-initiate {
+    margin: 1em 0 1em 0;
+  }
+
+  .jumbo-categorize {
+    margin-top: 2%;
+  }
+
+  .jumbo-categorize a{
+    text-decoration: none;
+  }
+
+  .jumbo-outdoor {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../img/outdoor/outdoor1.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    text-decoration: none;
+    transition: background-size 0.3s ease-in-out;
+  }
+
+  .jumbo-outdoor:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("../img/outdoor/outdoor1.jpg") no-repeat;
+    background-size: 120%;
+    background-position: center;
+  }
+
+  .jumbo-indoor {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../img/indoor/indoor1.jpg") no-repeat;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    text-decoration: none;
+    transition: background-size 0.3s ease-in-out;
+  }
+
+  .jumbo-indoor:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("../img/indoor/indoor1.jpg") no-repeat;
+    background-size: 120%;
+    background-position: center;
+  }
+
+  .caption-jumbo h3{
+    color: white;
+    font-size: 3em;
+    margin-top: 10%;
+  }
+
+  /* Extra Small devices (landscape phones, 576px and down) */
+
+  @media (max-width: 576px) {
+    .para-plant-cap {
+      margin: 4em 0 0 0;
+      padding: 0.5em;
+      font-size: 3em;
+      color: #FFF;
+      border: 10px white solid;
+      position: relative;
+    }
+
+    .caption-jumbo h3{
+      margin-top: 17%;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+
+  @media (min-width: 576px) {}
+
+  /* Medium devices (tablets, 768px and up)*/
+
+  @media (min-width: 768px) {}
+
+  /* Large devices (desktops, 992px and up) */
+
+  @media (min-width: 992px) {}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+
+  @media (min-width: 1200px) {}
