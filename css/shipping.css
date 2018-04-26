@@ -1,0 +1,55 @@
+#siap{
+  margin-right: 20px;
+}
+.jcontact{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.email, .nama, .kota{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.check{
+  margin-bottom: 20px;
+  margin-top: 3px;
+}
+.keep{
+  font-size: 12px;
+}
+.ship{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.prov{
+  width: 50%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.kode{
+  width: 30%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.alamat{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  height: 70px;
+}
+.save{
+ font-size: 12px;
+}
+.pay{
+  padding: 10px;
+  margin-left: 73px;
+  background-color: #98e25f;
+  border: none;
+  margin-bottom: 50px;
+
+}
+.car, .payment{
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}

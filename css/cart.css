@@ -1,0 +1,18 @@
+.car, .cus{
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}
+.men{
+  margin-bottom: 10px;
+}
+.price{
+  float: right;
+
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+
+
